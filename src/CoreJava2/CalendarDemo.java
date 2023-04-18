@@ -15,6 +15,15 @@ public class CalendarDemo {
 		System.out.println(Calendar.DAY_OF_MONTH);
 		System.out.println(Calendar.DAY_OF_WEEK_IN_MONTH);
 		System.out.println(Calendar.DATE);
+		//dsdf
+		//sfasf
+		//sfasfasfasf
+		
+		//writing someting to check gitHub functionality
+	
+		System.out.println("Code update by another person who clone the code from Repo");
+	
+	
 	}
 
 }
