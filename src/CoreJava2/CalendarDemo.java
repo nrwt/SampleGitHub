@@ -16,6 +16,12 @@ public class CalendarDemo {
 		System.out.println("New branch name develop added by SampleGitHub Guy");
 		System.out.println("This is the method created to add details what is happening");
 	}
+	
+public void addNewBranchDevelop(String test) {
+		
+		System.out.println("New branch name develop added by SampleGitHub Guy");
+		System.out.println("This is the method created to add details what is happening");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -39,6 +45,7 @@ public class CalendarDemo {
 		
 		System.out.println("code updated by Gitstuff guy who is first guy");
 	    cd.github();
+	    cd.addNewBranchDevelop();
 	}
 
 }
