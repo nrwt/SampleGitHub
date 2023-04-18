@@ -9,7 +9,13 @@ public class CalendarDemo {
 	
 	public void github() {
 		System.out.println("created by gitstuff master first guy");
-	}	
+	}
+	
+	public void addNewBranchDevelop() {
+		
+		System.out.println("New branch name develop added by SampleGitHub Guy");
+		System.out.println("This is the method created to add details what is happening");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
