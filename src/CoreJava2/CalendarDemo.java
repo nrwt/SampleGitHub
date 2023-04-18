@@ -21,7 +21,8 @@ public void addNewBranchDevelop(String test) {
 		
 		System.out.println("New branch name develop added by SampleGitHub Guy");
 		System.out.println("This is the method created to add details what is happening");
-	}
+		System.out.println("Only testing it "+test);	
+}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -46,6 +47,7 @@ public void addNewBranchDevelop(String test) {
 		System.out.println("code updated by Gitstuff guy who is first guy");
 	    cd.github();
 	    cd.addNewBranchDevelop();
+	    cd.addNewBranchDevelop("test");
 	}
 
 }
