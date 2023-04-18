@@ -1,0 +1,38 @@
+
+The Java collection framework is a collection of interfaces and classes which helps in storing and processing the data efficiently.
+This Framework has tons of useful classes and all those classes have tons of functions which makes a programmable task super easy.
+
+Below are different types of collections
+
+1) List - A list is an ordered collection (sometimes called a sequence). It can contain duplicate elements. 
+below are the classes implement List interface
+
+ArrayList
+LinkedList
+Vector
+
+2) Set - A set is a collection that cannot contain duplicate elements.However there is no guarantee of iteration order.
+Below are classes implement Set Interface
+
+HashSet
+LinkedHashSet
+TreeSet
+
+3)Map - A map is an Object that maps the keys to values. A map cannot contain duplicate values. Below are implementation of Map interface
+
+HashMap
+TreeMap
+LinkedHashMap
+
+
+Difference between hashmap and hashtable..
+
+in usage and methods they are same... the only difference is -- Hahsmap is non synchronised and non thread safe while 
+HashTable is synchronised and thread safe.
+
+if your application do not require any multithreading task, then use Hahmap. Hah map can be used by multiple programs at one time..
+
+while Hashtable. only one program or one thread can access hashmap at one time. once that thread is released only then other program can use it.
+hashmap allow one null key and any number of null values, while hashtable do not allow null keys or null values
+
+hashmap use iterator while hashtable use enumerator
